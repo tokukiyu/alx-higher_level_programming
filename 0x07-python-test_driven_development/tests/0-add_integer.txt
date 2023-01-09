@@ -16,6 +16,7 @@ This is an example text file which can be used to test add_integer.py module
 100
 >>> print(add_integer(100.3, -2))
 98
+>>> 
 >>> try:
 ...    print(add_integer(4, "School"))
 ... except Exception as e:
@@ -26,3 +27,39 @@ b must be an integer
 ... except Exception as e:
 ...   print(e)
 a must be an integer
+>>> try:
+...     add_integer('3', 3)
+... except TypeError as e:
+...     print(e)
+a must be an integer
+>>> try:
+...     add_integer(('3'), 3)
+... except TypeError as e:
+...     print(e)
+a must be an integer
+>>> try:
+...     add_integer(3, None)
+... except TypeError as e:
+...     print(e)
+b must be an integer
+>>> try:
+...     add_integer(3, '4')
+... except TypeError as e:
+...     print(e)
+b must be an integer
+>>> try:
+...     add_integer(float('inf'), float('inf'))
+... except Exception as e:
+...     print(e)
+cannot convert float infinity to integer
+>>> try:
+...     add_integer(float('inf'), 4)
+... except Exception as e:
+...     print(e)
+cannot convert float infinity to integer
+>>> try:
+...     add_integer(float('NaN'), 5)
+... except Exception as e:
+...     print(e)
+cannot convert float NaN to integer
+'''
