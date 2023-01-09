@@ -2,39 +2,27 @@
 
 ## Learning Objectives
 * Why Python programming is awesome
-* What is OOP
-* “first-class everything”
-* What is a class
-* What is an object and an instance
+* What is an object
 * What is the difference between a class and an object or instance
-* What is an attribute
-* What are and how to use public, protected and private attributes
-* What is `self`
-* What is a method
-* What is the special `__init__` method and how to use it
-* What is Data Abstraction, Data Encapsulation, and Information Hiding
-* What is a property
-* What is the difference between an attribute and a property in Python
-* What is the Pythonic way to write getters and setters in Python
-* What are the special `__str__` and `__repr__` methods and how to use them
-* What is the difference between `__str__` and `__repr__`
-* What is a class attribute
-* What is the difference between a object attribute and a class attribute
-* What is a class method
-* What is a static method
-* How to dynamically create arbitrary new attributes for existing instances of a class
-* How to bind attributes to object and classes
-* What is and what does contain `__dict__` of a class and of an instance of a class
-* How does Python find the attributes of an object or class
-* How to use the `getattr` function
+* What is the difference between immutable object and mutable object
+* What is a reference
+* What is an assignment
+* What is an alias
+* How to know if two variables are identical
+* How to know if two variables are linked to the same object
+* How to display the variable identifier (which is the memory address in the CPython implementation)
+* What is mutable and immutable
+* What are the built-in mutable types
+* What are the built-in immutable types
+* How does Python pass variables to functions
 
 ## Resources
-* [Object Oriented Programming](https://python.swaroopch.com/oop.html)
-* [Object-Oriented Programming](https://python-course.eu/oop/object-oriented-programming.php)
-* [Class and Instance Attributes](https://python-course.eu/oop/class-instance-attributes.php)
-* [classmethods and staticmethods](https://www.youtube.com/watch?v=rq8cL2XMM5M)
-* [Properties vs. Getters and Setters](https://python-course.eu/oop/properties-vs-getters-and-setters.php)
-* [str vs repr](https://shipit.dev/posts/python-str-vs-repr.html)
+* [9.10. Objects and values](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values)
+* [9.11. Aliasing](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#aliasing)
+* [Immutable vs mutable types](https://stackoverflow.com/questions/8056130/immutable-vs-mutable-types)
+* [Mutation]([https://www.youtube.com/watch?v=rq8cL2XMM5M](http://composingprograms.com/pages/24-mutable-data.html#sequence-objects))
+* [9.12. Cloning lists](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists)
+* [Python tuples: immutable but potentially changing](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
 
 ## Tasks To Complete
 
