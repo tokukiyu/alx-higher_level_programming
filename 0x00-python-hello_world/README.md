@@ -11,6 +11,7 @@
 * How to use strings
 * What are indexing and slicing in Python
 * What is the official Python coding style and how to check your code with `pycodestyle`
+* How `Pycodestyle` is the new [standard of Python style code](https://github.com/PyCQA/pycodestyle/issues/466)
 
 ## Resources
 * [The Python tutorial](https://docs.python.org/3/tutorial/index.html)
