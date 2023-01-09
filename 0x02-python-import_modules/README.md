@@ -1,5 +1,7 @@
 # 0x02. Python - import & module
 
+![Pep8 style](https://img.shields.io/badge/PEP8-style%20guide-green?style=round-square)
+
 ## Learning Objectives
 * Why Python programming is awesome
 * How to import functions from another file
