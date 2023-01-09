@@ -8,6 +8,8 @@ This is an example text file which can be used to test add_integer.py module
 
 >>> from importlib import import_module
 >>> add_integer = import_module('0-add_integer').add_integer
+
+# start testing for valid
 >>> print(add_integer(1, 2))
 3
 >>> print(add_integer(100, -2))
@@ -16,7 +18,10 @@ This is an example text file which can be used to test add_integer.py module
 100
 >>> print(add_integer(100.3, -2))
 98
->>> 
+>>> add_integer(1.2, 5.8)
+6
+
+# start testing for errors 
 >>> try:
 ...    print(add_integer(4, "School"))
 ... except Exception as e:
@@ -61,5 +66,6 @@ cannot convert float infinity to integer
 ...     add_integer(float('NaN'), 5)
 ... except Exception as e:
 ...     print(e)
-cannot convert float NaN to integer
+94
+
 '''
