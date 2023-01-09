@@ -229,7 +229,6 @@
   print("Python")
   ```
   + _**[105-line1.txt](105-line1.txt)**_ Contains the answer to how many int objects have been created and are still in memory before the execution of line in the script (`print("Love")`).
-  + _**[105-blog_post.md](105-blog_post.md)**_ Contains the blog post of an explanation of the answer.
 + [x] 34\. Clear strings <br/>Considering the script below and assuming we are using a CPython implementation of Python3 with default options/configuration:
   ```python
   a = "SCHL"
