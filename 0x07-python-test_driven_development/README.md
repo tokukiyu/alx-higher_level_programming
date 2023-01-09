@@ -1,5 +1,8 @@
 # 0x07-python-test_driven_development
 
+![Pep8 style](https://img.shields.io/badge/PEP8-style%20guide-green?style=round-square)
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
+
 ## Learning Objectives
 * Why Python programming is awesome
 * What’s an interactive test
