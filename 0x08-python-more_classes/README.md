@@ -123,15 +123,15 @@
   + Static method `def bigger_or_equal(rect_1, rect_2):` that returns the biggest rectangle based on the area. Returns `rect_1` if both have the same area value.
   + Class method `def square(cls, size=0):` that returns a new Rectangle instance with `width == height == size`.
 + [x] 10\. N queens <br/>_**[101-nqueens.py](101-nqueens.py)**_ contains a program that solves the N queens problem.
-   + The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
-         + Usage: `./101-nqueens.py N`
+  + The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
+       + Usage: `./101-nqueens.py N`
              + If the user called the program with the wrong number of arguments, print Usage: nqueens N, followed by a new line, and exit with the status `1`
-         + where N must be an integer greater or equal to `4`
+       + where N must be an integer greater or equal to `4`
              + If N is not an integer, print `N must be a number`, followed by a new line, and exit with the status `1`
              + If N is smaller than `4`, print `N must be at least 4`, followed by a new line, and exit with the status `1`
-         + The program should print every possible solution to the problem
+       + The program should print every possible solution to the problem
              + One solution per line
              + Format: see example
              + You don’t have to print the solutions in a specific order
-         + You are only allowed to import the `sys` module
-   + Info: [Queen, Backtracking](https://en.wikipedia.org/wiki/Backtracking)
+       + You are only allowed to import the `sys` module
+  + Info: [Queen, Backtracking](https://en.wikipedia.org/wiki/Backtracking)
