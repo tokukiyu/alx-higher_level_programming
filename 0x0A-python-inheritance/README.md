@@ -53,7 +53,7 @@
 + [x] 13\. Can I? <br/>_**[101-add_attribute.py](101-add_attribute.py)**_ contains a function that adds a new attribute to an object if it’s possible.
 
 ## Documentation and testing
-* All tests should be executed by using this command: python3 -m doctest ./tests/*
-* All modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
-* All classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-* All functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+* All tests should be executed by using this command: `python3 -m doctest ./tests/*`
+* All modules should have a documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
+* All classes should have a documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`)
+* All functions (inside and outside a class) should have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)`' and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`)
