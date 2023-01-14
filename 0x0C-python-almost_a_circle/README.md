@@ -24,9 +24,17 @@
 + [x] 1\. Base class <br/>_**[models/](models/)**_ contains a file ([\_\_init\_\_.py](models/__init__.py)) that makes the folder become a package. <br/> _**[1-main.py](1-main.py)**_ an example to run which shows expected output. <br/> _**[models/base.py](models/base.py)**_ contains a class `Base` that will be the “base” of all other classes in this project:
   + Private class attribute `__nb_objects = 0`.
   + Class constructor: `def __init__(self, id=None):`. The public instance attribute `id` is assigned with this argument's value if the argument's value is not `None`, otherwise `__nb_objects` is incremented and `__nb_objects`'s new value is assigned to the public instance attribute `id`.
-+ [x] 2\. First Rectangle <br/>_**[models/rectangle.py](models/rectangle.py)**_ contains a class `Rectangle` that inherits from [Base](models/base.py):
-  + Public instance attributes: `first_name`, `last_name`, and `age`.
-  + Class constructor: `def __init__(self, width, height, x=0, y=0, id=None):`. Calls the super class with `id` and assigns the right argument to the associated private instance attribute (E.g.; `__width` -> `width` and `__x` -> `x`).
++ [x] 2\. First Rectangle <br/>_**[2-main.py](2-main.py)**_ an example to run which shows the expected output <br/>_**[models/rectangle.py](models/rectangle.py)**_ contains a class `Rectangle` that inherits from [Base](models/base.py):
+  + In the file <br/>_**[models/rectangle.py](models/rectangle.py)**_
+  + Class `Rectangle` inherits from Base
+  + Private instance attributes, each with its own public getter and setter:
+      + __width -> width
+      + __height -> height
+      + __x -> x
+      + __y -> y
+  + Class constructor: `def __init__(self, width, height, x=0, y=0, id=None)`:
+      + Call the super class with `id` - this super call with use the logic of the `__init__` of the `Base` class
+      + Assign each argument `width`, `height`, `x` and `y` to the right attribute
 + [x] 3\. Validate attributes <br/> Update the class [Rectangle](models/rectangle.py) by adding validation of all setter methods and instantiation (`id` excluded).
   + The input must be an integer. `width` and `height` must be greater than 0. `x` and `y` must be greater than or equal to zero.
 + [x] 4\. Area first <br/> Update the class [Rectangle](models/rectangle.py) by adding the public method `def area(self):` that returns the area value of the `Rectangle` instance.
