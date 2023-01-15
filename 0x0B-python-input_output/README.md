@@ -62,6 +62,9 @@
    + You must use your function `save_to_json_file` from [5-save_to_json_file.py](5-save_to_json_file.py)
    + You must use your function `load_from_json_file` from [6-load_from_json_file.py](6-load_from_json_file.py)
 + [x] 8\. Class to JSON <br/>_**[8-class_to_json.py](8-class_to_json.py)**_ contains a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object.
+   + Prototype: `def class_to_json(obj)`:
+   + `obj` is an instance of a Class
+   + All attributes of the `obj` Class are serializable: list, dictionary, string, integer and boolean
 + [x] 9\. Student to JSON <br/>_**[9-student.py](9-student.py)**_ contains a class `Student` that defines a student by:
   + Public instance attributes: `first_name`, `last_name`, and `age`.
   + Instantiation with `first_name`, `last_name`, and `age`: `def __init__(self, first_name, last_name, age):`.
