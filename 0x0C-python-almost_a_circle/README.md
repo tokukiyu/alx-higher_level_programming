@@ -36,9 +36,9 @@
       + Call the super class with `id` - this super call with use the logic of the `__init__` of the `Base` class
       + Assign each argument `width`, `height`, `x` and `y` to the right attribute
 + [x] 3\. Validate attributes <br/> Update the class [Rectangle](models/rectangle.py) by adding validation of all setter methods and instantiation (`id` excluded).
-      + If the input is not an integer, raise the `TypeError` exception with the message: `<name of the attribute> must be an integer`. Example: `width must be an integer`
-      + If `width` or `height` is under or equals `0`, raise the `ValueError` exception with the message: `<name of the attribute> must be > 0`. Example: `width must be > 0`
-      + If `x` or `y` is under `0`, raise the `ValueError` exception with the message: `<name of the attribute> must be >= 0`. Example: `x must be >= 0`
+  + If the input is not an integer, raise the `TypeError` exception with the message: `<name of the attribute> must be an integer`. Example: `width must be an integer`
+  + If `width` or `height` is under or equals `0`, raise the `ValueError` exception with the message: `<name of the attribute> must be > 0`. Example: `width must be > 0`
+  + If `x` or `y` is under `0`, raise the `ValueError` exception with the message: `<name of the attribute> must be >= 0`. Example: `x must be >= 0`
 + [x] 4\. Area first <br/> Update the class [Rectangle](models/rectangle.py) by adding the public method `def area(self):` that returns the area value of the `Rectangle` instance.
 + [x] 5\. Display #0 <br/> Update the class [Rectangle](models/rectangle.py) by adding the public method `def display(self):` that prints in stdout the `Rectangle` instance with the character `#`. There's no need to handle `x` and `y` here.
 + [x] 6\. \_\_str\_\_ <br/> Update the class [Rectangle](models/rectangle.py) by overriding the `__str__` method so that it returns `[Rectangle] (<id>) <x>/<y> - <width>/<height>`.
