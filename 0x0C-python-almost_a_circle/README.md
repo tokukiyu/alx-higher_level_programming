@@ -24,9 +24,8 @@
 + [x] 1\. Base class <br/>_**[models/](models/)**_ contains a file ([\_\_init\_\_.py](models/__init__.py)) that makes the folder become a package. <br/> _**[1-main.py](1-main.py)**_ an example to run which shows expected output. <br/> _**[models/base.py](models/base.py)**_ contains a class `Base` that will be the “base” of all other classes in this project:
   + Private class attribute `__nb_objects = 0`.
   + Class constructor: `def __init__(self, id=None):`. The public instance attribute `id` is assigned with this argument's value if the argument's value is not `None`, otherwise `__nb_objects` is incremented and `__nb_objects`'s new value is assigned to the public instance attribute `id`.
-+ [x] 2\. First Rectangle <br/>_**[2-main.py](2-main.py)**_ an example to run which shows the expected output <br/>_**[models/rectangle.py](models/rectangle.py)**_ contains a class `Rectangle` that inherits from [Base](models/base.py):
-  + In the file <br/>_**[models/rectangle.py](models/rectangle.py)**_
-  + Class `Rectangle` inherits from Base
++ [x] 2\. First Rectangle <br/>_**[2-main.py](2-main.py)**_ an example to run which shows the expected output
+  + Class [Rectangle](models/rectangle.py) inherits from [Base](models/base.py)
   + Private instance attributes, each with its own public getter and setter:
       + __width -> width
       + __height -> height
