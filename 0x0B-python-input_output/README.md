@@ -58,7 +58,9 @@
    + You must use the `with` statement
    + You don’t need to manage exceptions if the JSON string doesn’t represent an object.
    + You don’t need to manage file permissions / exceptions.
-+ [x] 7\. Load, add, save <br/>_**[7-add_item.py](7-add_item.py)**_ contains a script that adds all arguments to a Python list, and then save them to a file named `add_item.json`.
++ [ ] 7\. Load, add, save <br/>_**[7-add_item.py](7-add_item.py)**_ contains a script that adds all arguments to a Python list, and then save them to a file named `add_item.json`.
+   + You must use your function `save_to_json_file` from [5-save_to_json_file.py](5-save_to_json_file.py)
+   + You must use your function `load_from_json_file` from [6-load_from_json_file.py](6-load_from_json_file.py)
 + [x] 8\. Class to JSON <br/>_**[8-class_to_json.py](8-class_to_json.py)**_ contains a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object.
 + [x] 9\. Student to JSON <br/>_**[9-student.py](9-student.py)**_ contains a class `Student` that defines a student by:
   + Public instance attributes: `first_name`, `last_name`, and `age`.
