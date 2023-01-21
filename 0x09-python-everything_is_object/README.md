@@ -1,5 +1,7 @@
 # 0x09. Python - Everything is object
 
+![Pep8 style](https://img.shields.io/badge/PEP8-style%20guide-green?style=round-square)
+
 ## Learning Objectives
 * Why Python programming is awesome
 * What is an object
