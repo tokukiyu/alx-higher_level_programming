@@ -1,6 +1,4 @@
-[submodule "AirBnB_clone"]
-	path = AirBnB_clone
-	url = https://github.com/Bikilaketema/AirBnB_clone.git
-[submodule "0x0c-AirBnB_clone"]
-	path = 0x0c-AirBnB_clone
+
+[submodule "0x0C-AirBnB_clone"]
+	path = 0x0C-AirBnB_clone
 	url = https://github.com/Bikilaketema/AirBnB_clone.git
