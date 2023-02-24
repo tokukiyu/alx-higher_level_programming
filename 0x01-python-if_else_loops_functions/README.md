@@ -135,26 +135,26 @@ guillaume@ubuntu:~/0x01$
 + [x] 7\. islower <br/>_**[7-islower.py](7-islower.py)**_ contains a function that checks for lowercase character.
        + Tip: [ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
        
-       __Example__:
-       ```c
-       guillaume@ubuntu:~/0x01$ ./7-main.py
-       a is lower
-       H is upper
-       A is upper
-       3 is upper
-       g is lower
-       guillaume@ubuntu:~/0x01$ 
-       ```
+    __Example__:
+    ```c
+    guillaume@ubuntu:~/0x01$ ./7-main.py
+    a is lower
+    H is upper
+    A is upper
+    3 is upper
+    g is lower
+    guillaume@ubuntu:~/0x01$ 
+    ```
 + [x] 8\. To uppercase <br/>_**[8-uppercase.py](8-uppercase.py)**_ contains a function that prints a string in uppercase followed by a new line.
        + Tip: [ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
        
-       __Example__:
-       ```c
-       guillaume@ubuntu:~/0x01$ ./8-main.py
-       BEST
-       BEST SCHOOL 98 BATTERY STREET
-       guillaume@ubuntu:~/0x01$ 
-       ```
+    __Example__:
+    ```c
+    guillaume@ubuntu:~/0x01$ ./8-main.py
+    BEST
+    BEST SCHOOL 98 BATTERY STREET
+    guillaume@ubuntu:~/0x01$ 
+    ```
 + [x] 9\. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important <br/>_**[9-print_last_digit.py](9-print_last_digit.py)**_ contains a function that prints the last digit of a number.<br/>__Example__:
 ```c
 guillaume@ubuntu:~/0x01$ ./9-main.py
