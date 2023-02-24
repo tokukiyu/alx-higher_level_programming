@@ -133,7 +133,7 @@ guillaume@ubuntu:~/0x01$ ./6-print_comb3.py
 guillaume@ubuntu:~/0x01$ 
 ```
 + [x] 7\. islower <br/>_**[7-islower.py](7-islower.py)**_ contains a function that checks for lowercase character.
-       + Tip: [ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
+   + Tip: [ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
        
     __Example__:
     ```c
@@ -146,7 +146,7 @@ guillaume@ubuntu:~/0x01$
     guillaume@ubuntu:~/0x01$ 
     ```
 + [x] 8\. To uppercase <br/>_**[8-uppercase.py](8-uppercase.py)**_ contains a function that prints a string in uppercase followed by a new line.
-       + Tip: [ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
+   + Tip: [ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
        
     __Example__:
     ```c
