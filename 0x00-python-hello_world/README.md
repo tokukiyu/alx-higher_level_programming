@@ -1,9 +1,10 @@
 # 0x00. Python - Hello, World
-
+>project done in 1 day
 ![Pep8 style](https://img.shields.io/badge/PEP8-style%20guide-green?style=round-square)
 ![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
 
 ## Learning Objectives
+>needed to be [explaied](https://fs.blog/feynman-learning-technique/) after the project.
 * Why Python programming is awesome
 * Who created Python
 * Who is Guido van Rossum
