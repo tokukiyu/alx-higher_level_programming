@@ -183,9 +183,3 @@ guillaume@ubuntu:~/py/0x00$
              10 BINARY_ADD
              11 RETURN_VALUE
 	```
-	__Example__:
-	```c
-	bekalue@BEKALU-PC:~/c/0x00$ export CFILE=main.c
-	bekalue@BEKALU-PC:~/c/0x00$ ./0-preprocessor 
-	bekalue@BEKALU-PC:~/c/0x00$ tail c
-	```
